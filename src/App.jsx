@@ -13,12 +13,13 @@ function App() {
     <>
       <div>
         <h1>Covid</h1>
+        <Navbar>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/ermesek" element={<Ermesek />}></Route>
           <Route path="/mermesek" element={<Mermesek />}></Route>
-
         </Routes>
+        </Navbar>
       </div>
     </>
   )
