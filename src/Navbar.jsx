@@ -5,10 +5,10 @@ const Navbar = (()=>{
 
     return(
     <div>
-       <nav>
-        <Link to="/">Főoldal</Link>
-        <NavLink to="/ermesek">Az olimpia érmesei</NavLink>
-        <NavLink to="/mermesek">Az olimpia magyar érmesei</NavLink>
+       <nav className="pa3 pa4-ns">
+        <Link className="link dim black b f6 f5-ns dib mr3" to="/">Főoldal</Link>
+        <NavLink className="link dim black b f6 f5-ns dib mr3" to="/ermesek">Az olimpia érmesei</NavLink>
+        <NavLink className="link dim black b f6 f5-ns dib mr3" to="/mermesek">Az olimpia magyar érmesei</NavLink>
 
        </nav>
     </div>
